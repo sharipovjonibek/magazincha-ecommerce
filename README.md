@@ -1,5 +1,5 @@
 # 🛒 Magazincha.uz  -  E-commerce Web Application
-Magazincha.uz is a full-stack e-commerce web application built with Django.
+[Magazincha.uz](https://magazincha.uz/) is a full-stack e-commerce web application built with Django.
 It allows users to browse products, add them to cart, and make secure online payments.
 
 ## Features
@@ -54,27 +54,27 @@ Services used:
 - S3 Bucket
 
 ## Installation (Local Setup)
-`# Clone repository
-git clone https://github.com/your-username/magazincha.git
+Clone repository
+`git clone https://github.com/your-username/magazincha.git`
 
-# Go to project directory
-cd magazincha
+Go to project directory
+`cd magazincha`
 
-# Create virtual environment
-python -m venv venv
+Create virtual environment
+`python -m venv venv`
 
-# Activate environment
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
+Activate environment
+`source venv/bin/activate` -  Linux/macOS
+`venv\Scripts\activate` -  Windows
 
-# Install dependencies
-pip install -r requirements.txt
+Install dependencies
+`pip install -r requirements.txt`
 
-# Run migrations
-python manage.py migrate
+Run migrations
+`python manage.py migrate`
 
-# Run server
-python manage.py runserver`
+Run server
+`python manage.py runserver`
 
 
 
